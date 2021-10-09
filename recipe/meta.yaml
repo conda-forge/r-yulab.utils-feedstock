@@ -1,4 +1,4 @@
-{% set version = '0.0.2' %}
+{% set version = "0.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/yulab.utils_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/yulab.utils/yulab.utils_{{ version }}.tar.gz
-  sha256: b86860bf183ea193f81da77cffa7181a6562aa2035ef2dae39fa1193c13458c1
+  sha256: 38850663de53a9166b8e85deb85be1ccf1a5b310bbe4355f3b8bc823ed1b49ae
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -37,8 +37,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=yulab.utils
   license: Artistic-2.0
-  summary: Miscellaneous functions commonly used by 'YuLab-SMU', such as 'install_zip_gh' to
-    install R package from github zip file, 'o' to open selected directory and file.
+  summary: Miscellaneous functions commonly used by 'YuLab-SMU', such as 'install_zip_gh' to install R package from github zip file, 'o' to open selected directory and file.
   license_family: OTHER
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/Artistic-2.0
