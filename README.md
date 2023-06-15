@@ -1,11 +1,11 @@
-About r-yulab.utils
-===================
+About r-yulab.utils-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-yulab.utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=yulab.utils
 
 Package license: Artistic-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-yulab.utils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Miscellaneous functions commonly used by 'YuLab-SMU', such as 'install_zip_gh' to install R package from github zip file, 'o' to open selected directory and file.
 
