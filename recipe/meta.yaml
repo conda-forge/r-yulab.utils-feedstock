@@ -26,8 +26,12 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-memoise
+    - r-rlang
   run:
     - r-base
+    - r-memoise
+    - r-rlang
 
 test:
   commands:
