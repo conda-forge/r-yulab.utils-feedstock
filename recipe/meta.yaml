@@ -27,14 +27,14 @@ requirements:
     - r-cli
     - r-digest
     - r-fs
-    - r-memoise
+    - r-httr2
     - r-rlang
   run:
     - r-base
     - r-cli
     - r-digest
     - r-fs
-    - r-memoise
+    - r-httr2
     - r-rlang
 
 test:
