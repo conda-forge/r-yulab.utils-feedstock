@@ -1,4 +1,4 @@
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/yulab.utils_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/yulab.utils/yulab.utils_{{ version }}.tar.gz
-  sha256: ea5210cc414365f4970796025acb1f4ef5ab459ca399e949696b7f92f9ed0713
+  sha256: afb9d7e134bba9bebe5e359b2ed3474003f7dd9087c39e8d93031265b24d75f3
 
 build:
   number: 0
